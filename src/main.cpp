@@ -3,8 +3,8 @@
 #include "../include/ArmyBuilding/armyBuilder.hpp"
 #include "../include/battlefield.hpp"
 
-int main() {
-	// Setar a seed para o programa
+int main() 
+{
 	srand(static_cast<unsigned>(time(NULL)));
 
 	BattlePrinter printer;
