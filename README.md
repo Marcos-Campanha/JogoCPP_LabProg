@@ -11,7 +11,7 @@ Os soldados são criados a partir da leitura dos arquivos *data/army_bem.txt* e 
 
 - Exemplo: **Sauron/100/10/2** cria 2 Saurons com 100 de vida e 10 de poder cada
 
-> **Observação**: Os caminhos são relativos ao diretório JogoCPP_LabProg (No VisualStudio, por padrão, o caminho é relativo ao arquivo de solução .sln).
+> **Observação**: Os caminhos de leitura desses arquivos são relativos ao diretório JogoCPP_LabProg (No VisualStudio, por padrão, o caminho é relativo ao arquivo de solução .sln).
 > Para evitar problemas relacionados à leitura do arquivo, basta configurar o caminho da solução na IDE ou alterar o caminho na função main(), em *src/main.cpp*
 
 > std::vector<SoldadoBem*> armyBem = builder.buildArmyBem("data/army_bem.txt", printer);
