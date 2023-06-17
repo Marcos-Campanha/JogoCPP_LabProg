@@ -2,7 +2,7 @@
 
 ## Criação dos Exércitos
 
-Os objetos são criados a partir da leitura dos arquivos *data/army_bem.txt* e *data/army_mal.txt*, de acordo com o seguinte padrão:
+Os soldados são criados a partir da leitura dos arquivos *data/army_bem.txt* e *data/army_mal.txt*, de acordo com o seguinte padrão:
 
 **Nome da classe**/**Saúde**/**Poder**/**Quantidade**
 
