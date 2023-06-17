@@ -1,6 +1,6 @@
 #include "../include/soldado.hpp"
 
-// std::clamp requer C++17, no mínimo. Logo, façamos nossa própria clamp
+// std::clamp requer C++17, no mÃ­nimo. Logo, faÃ§amos nossa prÃ³pria clamp
 template<typename T>
 T clamp(const T& value, const T& low, const T& high)
 {
@@ -489,6 +489,22 @@ float BloodMagician::atacar(Soldado& soldado) {
 	{
 		DodgeEvent event(this, &soldado);
 		notifyObservers(event);
+
+		damage = 0.0f;
+	}
+	else if (defenseOutcome == DefenseOutcome::CounterAttack)
+	{
+		CounterAttackEvent event(this, &soldado, damage);
+		notifyObservers(event);
+
+		if (this->saude > damage)
+		{
+			this->saude -= damage;
+		}
+		else
+		{
+			this->saude = 0.0f;
+		}
 
 		damage = 0.0f;
 	}
