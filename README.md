@@ -18,3 +18,11 @@ Os soldados são criados a partir da leitura dos arquivos *data/army_bem.txt* e 
 As classes do bem são: ***Elfo***, ***Anão***, ***Humano***, ***Mago*** e ***Druid***
 
 As classes do mal são: ***Sauron***, ***Orc***, ***Jester*** e ***BloodMagician***
+
+## Resultado da batalha entre exércitos
+
+Antes de cada confronto, os estados de cada exército (Soldados vivos, saúde e poder) são mostrados. Em seguida, é realizado uma batalha entre um soldado do bem e um soldado do mal, até alguém vencer a luta. Então, um novo confronto é definido, priorizando os soldados que ainda não lutaram.
+
+As batalhas ocorrem por turnos, e a ação realizada em cada turno também é mostrada.
+
+### Todas as ações e informações do confronto são guardadas no arquivo *data/battle_log.txt*
