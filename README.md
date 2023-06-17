@@ -19,7 +19,7 @@ As classes do bem são: ***Elfo***, ***Anão***, ***Humano***, ***Mago*** e ***D
 
 As classes do mal são: ***Sauron***, ***Orc***, ***Jester*** e ***BloodMagician***
 
-## Resultado da batalha entre exércitos
+## Batalha entre exércitos
 
 Antes de cada confronto, os estados de cada exército (Soldados vivos, saúde e poder) são mostrados. Em seguida, é realizado uma batalha entre um soldado do bem e um soldado do mal, até alguém vencer a luta. Então, um novo confronto é definido, priorizando os soldados que ainda não lutaram.
 
