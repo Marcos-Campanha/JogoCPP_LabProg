@@ -26,7 +26,7 @@ As classes do mal são: ***Sauron***, ***Orc***, ***Jester*** e ***BloodMagician
 
 ## Batalha entre exércitos
 
-Antes de cada confronto, os estados de cada exército (Soldados vivos, saúde e poder) são mostrados na tela e é anunciada uma batalha entre um soldado do bem e um soldado do mal. Após o fim da batalha, anuncia-se uma nova, priorizando os soldados que ainda não lutaram.
+Antes de cada confronto, os estados de cada exército (soldados vivos, saúde e poder) são mostrados na tela e é anunciada uma batalha entre um soldado do bem e um soldado do mal. Após o fim da batalha, anuncia-se uma nova, priorizando os soldados que ainda não lutaram.
 
 As batalhas ocorrem por turnos, e a ação realizada em cada turno também é mostrada na tela.
 
