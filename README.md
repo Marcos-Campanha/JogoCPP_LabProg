@@ -6,7 +6,7 @@ Os soldados são criados a partir da leitura dos arquivos *data/army_bem.txt* e 
 
 **Nome da classe**/**Saúde**/**Poder**/**Quantidade**
 
-> **Observação**: Os caminhos são relativos ao diretório JogoCPP_LabProg (No VisualStudio, por exemplo, o caminho é relativo ao arquivo .sln).
+> **Observação**: Os caminhos são relativos ao diretório JogoCPP_LabProg (No VisualStudio, por exemplo, o caminho é relativo ao arquivo de solução .sln).
 > Para evitar problemas relacionados à leitura do arquivo, basta configurar o caminho da solução na IDE ou alterar o caminho na função main(), em *src/main.cpp*
 
 ## Tipos de classes (Bem x Mal)
