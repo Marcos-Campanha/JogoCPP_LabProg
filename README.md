@@ -25,4 +25,4 @@ Antes de cada confronto, os estados de cada exército (Soldados vivos, saúde e 
 
 As batalhas ocorrem por turnos, e a ação realizada em cada turno também é mostrada na tela.
 
-### Todas as ações e informações do confronto são guardadas no arquivo *data/battle_log.txt*
+> ### Todas as ações e informações do confronto são guardadas no arquivo *data/battle_log.txt*
