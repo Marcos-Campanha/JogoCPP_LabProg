@@ -7,7 +7,7 @@
 
 Os soldados são criados a partir da leitura dos arquivos *data/army_bem.txt* e *data/army_mal.txt*, seguindo o seguinte padrão:
 
-**Nome da classe**/**Saúde**/**Poder**/**Quantidade**
+**Nome da classe/Saúde/Poder/Quantidade**
 
 - Exemplo: **Sauron/100/10/2** cria 2 Saurons com 100 de vida e 10 de poder cada
 
