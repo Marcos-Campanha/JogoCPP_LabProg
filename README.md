@@ -11,6 +11,6 @@ Os objetos são criados pelos arquivos *data/army_bem.txt* e *data/army_mal.txt*
 
 ## Tipos de classes (Bem x Mal)
 
-### As classes do bem são: ***Elfo***, ***Anão***, ***Humano***, ***Mago*** e ***Druida***
+As classes do bem são: ***Elfo***, ***Anão***, ***Humano***, ***Mago*** e ***Druida***
 
-### As classes do mal são: ***Sauron***, ***Orc***, ***Jester*** e ***BloodMagician***
+As classes do mal são: ***Sauron***, ***Orc***, ***Jester*** e ***BloodMagician***
