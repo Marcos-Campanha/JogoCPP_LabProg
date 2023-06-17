@@ -1,0 +1,5 @@
+Orc/150/10/5
+Orc/100/15/2
+Jester/100/10/3
+BloodMagician/100/20/3
+Sauron/100/10/2
