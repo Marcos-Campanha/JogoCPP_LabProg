@@ -1,7 +1,5 @@
 # Trabalho LOTR em C++, LabProg
 
-> ### Aluno Marcos Paulo de Souza Campanha
-
 ## Criação dos Exércitos
 
 Os soldados são criados a partir da leitura dos arquivos *data/army_bem.txt* e *data/army_mal.txt*, seguindo o seguinte padrão:
