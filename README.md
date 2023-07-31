@@ -1,7 +1,6 @@
 # Trabalho LOTR em C++, LabProg
 
 > ### Aluno Marcos Paulo de Souza Campanha
-> ### Aluno João Vitor Rodrigues Cortines Laxe
 
 ## Criação dos Exércitos
 
