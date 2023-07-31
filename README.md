@@ -1,4 +1,4 @@
-# Trabalho LOTR em C++, LabProg
+# Trabalho LOTR em C++, LabProg I
 
 ## Criação dos Exércitos
 
