@@ -1,32 +1,35 @@
 # Trabalho LOTR em C++, LabProg I
 
-## Criação dos Exércitos
+This repository contains an implementation of a random auto-battler in C++. The battle happens between two armies: Good and Evil, each of which contains different classes and soldiers who fight each other in turns.
+
+## Army creation
 
 Os soldados são criados a partir da leitura dos arquivos *data/army_bem.txt* e *data/army_mal.txt*, seguindo o seguinte padrão:
+The soldiers for the Good and Evil Armies are created, respectively, by reading the files *data/army_bem.txt* and *data/army_mal.txt*, as follows:
 
-### **Nome da classe/Saúde/Poder/Quantidade**
+### **Name of the class/Health Points/Power/Quantity**
 
-- Exemplo: **Sauron/100/10/2** cria 2 Saurons com 100 de vida e 10 de poder cada
+- Example: **Sauron/100/10/2** creates 2 Saurons with 100 HP and 10 Power each
 
-> **Observação**: Os caminhos de leitura desses arquivos são relativos ao próprio diretório JogoCPP_LabProg (No VisualStudio, por padrão, o caminho é relativo ao arquivo de solução .sln).
-> Para evitar problemas relacionados à leitura do arquivo, basta configurar o caminho na IDE ou alterar o caminho na função main(), em *src/main.cpp*
+> **Note**: The file paths are relative to the directory LOTR_LabProg_I (In VisualStudio, by default, the path is relative to the .sln file).
+> To avoid problems related to file reading, just configure the paths on your IDE or change the paths in main() function, at *src/main.cpp*
 
 > std::vector<SoldadoBem*> armyBem = builder.buildArmyBem("data/army_bem.txt", printer);
 > 
 > std::vector<SoldadoMal*> armyMal = builder.buildArmyMal("data/army_mal.txt", printer);
 
-## Tipos de classes (Bem x Mal)
+## Types of classes (Good x Evil)
 
-As classes do bem são: ***Elfo***, ***Anão***, ***Humano***, ***Mago*** e ***Druid***
+Good Army classes are: ***Elfo***, ***Anão***, ***Humano***, ***Mago*** e ***Druid***
 
-As classes do mal são: ***Sauron***, ***Orc***, ***Jester*** e ***BloodMagician***
+Evil Army classes are: ***Sauron***, ***Orc***, ***Jester*** e ***BloodMagician***
 
-## Batalha entre Exércitos
+## Battle between armies
 
-Antes de cada luta, os estados de cada exército (soldados vivos, saúde e poder) são apresentados na tela e é anunciado um confronto entre um soldado do bem e um soldado do mal.
+Before each fight, each army's state (alive soldiers, HP e Power) are printed on the screen and a new fight is announced between a good soldier and an evil soldier.
 
-Após o fim desse confronto, anuncia-se um novo, priorizando os soldados que ainda não lutaram, até que um dos exércitos seja completamente eliminado.
+After the end of the fight, a new fight is announced, prioritizing the soldiers who haven't fought yet, until one of the armies gets completely eliminated.
 
-As batalhas ocorrem por turnos, e a ação realizada em cada turno também é mostrada na tela.
+Each turn's actions are also presented on the screen.
 
-> Todas as ações e informações do confronto são guardadas no arquivo *data/battle_log.txt*
+> All actions and the whole battle informations are saved on the file *data/battle_log.txt*
