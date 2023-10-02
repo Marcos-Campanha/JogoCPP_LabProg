@@ -1,4 +1,4 @@
-# Trabalho LOTR em C++, LabProg I
+# LOTR Project in C++, LabProg I
 
 This repository contains an implementation of a random auto-battler in C++. The battle happens between two armies: Good and Evil, each of which contains different classes and soldiers who fight each other in turns.
 
