@@ -21,7 +21,7 @@ The soldiers for the Good and Evil Armies are created, respectively, by reading 
 
 Good Army classes are: ***Elfo***, ***Anão***, ***Humano***, ***Mago*** e ***Druid*** (***Elf***, ***Dwarf***, ***Human***, ***Wizard***, ***Druid***).
 
-Evil Army classes are: ***Sauron***, ***Orc***, ***Jester*** e ***BloodMagician*** (***Sauron***, ***Orc***, ***Jester***, ***BloodMagician***).
+Evil Army classes are: ***Sauron***, ***Orc***, ***Jester*** e ***BloodMagician***.
 
 ## Battle between armies
 
