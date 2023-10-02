@@ -11,7 +11,7 @@ The soldiers for the Good and Evil Armies are created, respectively, by reading 
 
 - Example: **Sauron/100/10/2** creates 2 Saurons with 100 HP and 10 Power each
 
-> **Note**: The file paths are relative to the directory LOTR_LabProg_I (In VisualStudio, by default, the path is relative to the .sln file).
+> **Note**: The file paths are relative to the directory LOTR_LabProg_I (In Visual Studio, by default, the path is relative to the .sln file).
 > To avoid problems related to file reading, just configure the paths on your IDE or change the paths in main() function, at *src/main.cpp*
 
 > std::vector<SoldadoBem*> armyBem = builder.buildArmyBem("data/army_bem.txt", printer);
